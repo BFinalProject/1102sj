@@ -110,7 +110,7 @@ export default {
     },
     methods: {
         load() {
-            this.axios.get('/api/twitter/').then(res => {
+            this.axios.get('/api/?????/').then(res => {
                 console.log(res.data);
             });
         },
